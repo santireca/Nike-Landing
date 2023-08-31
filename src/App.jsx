@@ -10,7 +10,7 @@ import Services from "./sections/Services";
 
 const App = () => (
   <main
-    className=" relative"
+    className=" relative dark:bg-slate-950"
   >
     <Nav />
     <section
@@ -42,7 +42,7 @@ const App = () => (
       <SpecialOffers />
     </section>
     <section
-      className="padding bg-pale-blue"
+      className="padding bg-pale-blue dark:bg-slate-950"
     >
       <CustomerReviews />
     </section>

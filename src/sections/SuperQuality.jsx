@@ -10,17 +10,17 @@ const SuperQuality = () => {
             <div
                 className=" flex flex-1 flex-col"
             >
-                <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
+                <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg dark:text-white">
                     We Provide You <span className=" text-coral-red">
                         Super
                     </span> <span className=" text-coral-red">
                         Quality
                     </span> Shoes
                 </h2>
-                <p className=" mt-4 lg:max-w-lg info-text">
+                <p className=" mt-4 lg:max-w-lg info-text dark:text-gray-300">
                     Ensuring premium comfort and style, our meticulously crafted footwear is designed to elevate your experience, providing you with unmatched quality, innovation, and a touch of elegance.
                 </p>
-                <p className="mt-6 lg:max-w-lg info-text">
+                <p className="mt-6 lg:max-w-lg info-text dark:text-gray-300">
                     Our dedication to detail and excellence ensures your satisfaction.
                 </p>
                 <div

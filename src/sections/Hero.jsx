@@ -18,17 +18,17 @@ const Hero = () => {
             <div
                 className=" relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28"
             >
-                <p className=" text-xl font-montserrat text-color-red">
+                <p className=" text-xl font-montserrat text-coral-red">
                     Our Summer Collection
                 </p>
-                <h1 className=" mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
-                    <span className=" xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">The New Arrival</span>
+                <h1 className=" mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold dark:text-white">
+                    <span className=" xl:bg-white xl:whitespace-nowrap xl:dark:bg-slate-950 dark:xl:whitespace-nowrap relative z-10 pr-10">The New Arrival</span>
                     <br />
                     <span className=" text-coral-red inline-block mt-3">
                         Nike
                     </span> Shoes
                 </h1>
-                <p className=" font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
+                <p className=" font-montserrat text-slate-gray dark:text-gray-300 text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
                     Discover stylish Nike arrivals, quality comfort, and innovation for you active life.
                 </p>
                 <Button label='Shop now' iconUrl={arrowRight} />
@@ -38,13 +38,13 @@ const Hero = () => {
                 >
                     {statistics.map((statistic, index) => (
                         <div key={index}>
-                            <p className=" text-4xl font-palanquin font-bold">{statistic.value}</p>
-                            <p className=" leading-7 font-montserrat text-slate-gray">{statistic.label}</p>
+                            <p className=" text-4xl font-palanquin font-bold dark:text-white">{statistic.value}</p>
+                            <p className=" leading-7 font-montserrat text-slate-gray dark:text-gray-300">{statistic.label}</p>
                         </div>
                     ))}
                 </div>
             </div>
-            <div className=" relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center">
+            <div className=" relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40  dark:bg-transparent">
                 <img 
                     src={bigShoeImage}
                     alt="Shoe collection"
